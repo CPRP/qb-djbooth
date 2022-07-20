@@ -57,12 +57,12 @@ Config = {
 								     -- (can be changed to any prop, coords determine wether its placed correctly)
 		},
 		{ -- LostMC compound next to Casino
-		gang = "lostmc",
-		enableBooth = true,
-		DefaultVolume = 0.1,
-		radius = 20,
-		coords = vector3(983.14, -133.17, 79.59),
-		soundLoc = vector3(988.79, -131.62, 78.89), -- Add sound origin location if you don't want the music to play from the dj booth
+			gang = "lostmc",
+			enableBooth = true,
+			DefaultVolume = 0.1,
+			radius = 20,
+			coords = vector3(983.14, -133.17, 79.59),
+			soundLoc = vector3(988.79, -131.62, 78.89), -- Add sound origin location if you don't want the music to play from the dj booth
 		},
 		{ -- Church
 			job = "public",
