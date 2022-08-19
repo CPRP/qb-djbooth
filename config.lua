@@ -28,14 +28,14 @@ Config = {
 			coords = vector3(-311.35, 6265.18, 32.06),
 			playing = false, -- don't touch
 		},
-		{ -- Tequilala bar (ingame mlo)
-			job = "tequilala",
-			enableBooth = true,
-			DefaultVolume = 0.1,
-			radius = 30,
-			coords = vector3(-549.68, 282.64, 82.98),
-			playing = false, -- don't touch
-		},
+		-- { -- Tequilala bar (ingame mlo)
+		-- 	job = "tequilala",
+		-- 	enableBooth = true,
+		-- 	DefaultVolume = 0.1,
+		-- 	radius = 30,
+		-- 	coords = vector3(-549.68, 282.64, 82.98),
+		-- 	playing = false, -- don't touch
+		-- },
 		{ -- GabzTuners Radio Prop
 			job = "mechanic",
 			enableBooth = true,
@@ -82,6 +82,16 @@ Config = {
 			coords = vector3(955.38, -2390.53, 21.32),
 			playing = false, -- don't touch
 			prop = `prop_speaker_07` -- Prop to spawn at location, if the location doesn't have one already
+									-- (can be changed to any prop, coords determine wether its placed correctly)
+		},
+		{ -- Tequilala
+			job = "tequilala",
+			enableBooth = true,
+			DefaultVolume = 0.1,
+			radius = 30,
+			coords = vector3(vector3(-551.4, 284.86, 82.78)),
+			playing = false, -- don't touch
+			prop = `prop_dj_deck_01` -- Prop to spawn at location, if the location doesn't have one already
 									-- (can be changed to any prop, coords determine wether its placed correctly)
 		},
 	},
