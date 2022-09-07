@@ -1,6 +1,7 @@
 print("QB-DJBooth edit by Jimathy")
 
 Config = {
+	Lan = "en",
 	Debug = false, -- Set to true to show target locations
 	Locations = {
 		{ -- Vanilla Unicorn DJ Booth
@@ -96,3 +97,5 @@ Config = {
 		},
 	},
 }
+
+Loc = {}
