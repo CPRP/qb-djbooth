@@ -79,8 +79,8 @@ Config = {
 			job = "public",
 			enableBooth = true,
 			DefaultVolume = 0.1,
-			radius = 60,
-			coords = vector3(955.38, -2390.53, 21.32),
+			radius = 80,
+			coords = vector3(945.23, -1828.14, 20.04),
 			playing = false, -- don't touch
 			prop = `prop_speaker_07` -- Prop to spawn at location, if the location doesn't have one already
 									-- (can be changed to any prop, coords determine wether its placed correctly)
