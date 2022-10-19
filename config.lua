@@ -95,6 +95,16 @@ Config = {
 			prop = `prop_dj_deck_01` -- Prop to spawn at location, if the location doesn't have one already
 									-- (can be changed to any prop, coords determine wether its placed correctly)
 		},
+		{ -- Cat Cafe
+			job = "catcafe",
+			enableBooth = true,
+			DefaultVolume = 0.1,
+			radius = 30,
+			coords = vector3(-587.83, -1057.4, 22.26),
+			playing = false, -- don't touch
+			prop = `prop_dj_deck_01` -- Prop to spawn at location, if the location doesn't have one already
+									-- (can be changed to any prop, coords determine wether its placed correctly)
+		},
 	},
 }
 
