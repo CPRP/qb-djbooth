@@ -234,16 +234,16 @@ Config = {
 		prop = `prop_dj_deck_01` -- Prop to spawn at location, if the location doesn't have one already
 								-- (can be changed to any prop, coords determine wether its placed correctly)
 		},
-		{ -- Bahama Mamas
-		job = "bahama",
-		enableBooth = true,
-		DefaultVolume = 0.1,
-		radius = 30,
-		coords = vector3(-1400.64, -597.21, 30.36),
-		playing = false, -- don't touch
-		prop = `prop_dj_deck_01` -- Prop to spawn at location, if the location doesn't have one already
-								-- (can be changed to any prop, coords determine wether its placed correctly)
-		},
+		-- { -- Bahama Mamas
+		-- job = "bahama",
+		-- enableBooth = true,
+		-- DefaultVolume = 0.1,
+		-- radius = 30,
+		-- coords = vector3(-1400.64, -597.21, 30.36),
+		-- playing = false, -- don't touch
+		-- prop = `prop_dj_deck_01` -- Prop to spawn at location, if the location doesn't have one already
+		-- 						-- (can be changed to any prop, coords determine wether its placed correctly)
+		-- },
 		{ -- Limeys
 		job = "limeys",
 		enableBooth = true,
