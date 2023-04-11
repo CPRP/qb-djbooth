@@ -106,17 +106,17 @@ Config = {
 			enableBooth = true,
 			DefaultVolume = 0.1,
 			radius = 30,
-			coords = vector3(84.42, 286.21, 110.13),
+			coords = vector3(88.96, 289.66, 110.87),
 			playing = false, -- don't touch
 			prop = `prop_dj_deck_01` -- Prop to spawn at location, if the location doesn't have one already
 									-- (can be changed to any prop, coords determine wether its placed correctly)
 		},
-		{ -- Burgershot (Mirror Park)
-			job = "mirrorparkbs",
+		{ -- Hornys
+			job = "hornys",
 			enableBooth = true,
 			DefaultVolume = 0.1,
 			radius = 30,
-			coords = vector3(1247.46, -356.04, 69.33),
+			coords = vector3(1246.01, -358.36, 69.99),
 			playing = false, -- don't touch
 			prop = `prop_dj_deck_01` -- Prop to spawn at location, if the location doesn't have one already
 									-- (can be changed to any prop, coords determine wether its placed correctly)
@@ -142,115 +142,105 @@ Config = {
 									-- (can be changed to any prop, coords determine wether its placed correctly)
 		},
 		{ -- Pizza This
-		job = "pizzathis",
-		enableBooth = true,
-		DefaultVolume = 0.1,
-		radius = 30,
-		coords = vector3(811.64, -749.83, 27.03),
-		playing = false, -- don't touch
-		prop = `prop_dj_deck_01` -- Prop to spawn at location, if the location doesn't have one already
-								-- (can be changed to any prop, coords determine wether its placed correctly)
+			job = "pizzathis",
+			enableBooth = true,
+			DefaultVolume = 0.1,
+			radius = 30,
+			coords = vector3(811.64, -749.83, 27.03),
+			playing = false, -- don't touch
+			prop = `prop_dj_deck_01` -- Prop to spawn at location, if the location doesn't have one already
+									-- (can be changed to any prop, coords determine wether its placed correctly)
 		},
 		{ -- Bean Machine
-		job = "beanmachine",
-		enableBooth = true,
-		DefaultVolume = 0.1,
-		radius = 30,
-		coords = vector3(126.31, -1034.4, 29.22),
-		playing = false, -- don't touch
-		prop = `prop_dj_deck_01` -- Prop to spawn at location, if the location doesn't have one already
-								-- (can be changed to any prop, coords determine wether its placed correctly)
+			job = "beanmachine",
+			enableBooth = true,
+			DefaultVolume = 0.1,
+			radius = 30,
+			coords = vector3(126.31, -1034.4, 29.22),
+			playing = false, -- don't touch
+			prop = `prop_dj_deck_01` -- Prop to spawn at location, if the location doesn't have one already
+									-- (can be changed to any prop, coords determine wether its placed correctly)
 		},
 		{ -- Best Buds
-		job = "bestbuds",
-		enableBooth = true,
-		DefaultVolume = 0.1,
-		radius = 30,
-		coords = vector3(374.77, -830.17, 29.28),
-		playing = false, -- don't touch
-		prop = `prop_dj_deck_01` -- Prop to spawn at location, if the location doesn't have one already
-								-- (can be changed to any prop, coords determine wether its placed correctly)
+			job = "bestbuds",
+			enableBooth = true,
+			DefaultVolume = 0.1,
+			radius = 30,
+			coords = vector3(374.77, -830.17, 29.28),
+			playing = false, -- don't touch
+			prop = `prop_dj_deck_01` -- Prop to spawn at location, if the location doesn't have one already
+									-- (can be changed to any prop, coords determine wether its placed correctly)
 		},
 		{ -- White Widow
-		job = "whitewidow",
-		enableBooth = true,
-		DefaultVolume = 0.1,
-		radius = 30,
-		coords = vector3(187.87, -246.21, 54.65),
-		playing = false, -- don't touch
-		prop = `prop_dj_deck_01` -- Prop to spawn at location, if the location doesn't have one already
-								-- (can be changed to any prop, coords determine wether its placed correctly)
+			job = "whitewidow",
+			enableBooth = true,
+			DefaultVolume = 0.1,
+			radius = 30,
+			coords = vector3(187.87, -246.21, 54.65),
+			playing = false, -- don't touch
+			prop = `prop_dj_deck_01` -- Prop to spawn at location, if the location doesn't have one already
+									-- (can be changed to any prop, coords determine wether its placed correctly)
 		},
 		--ALL BARS
 		{ -- Insert Coin
-		job = "insertcoin",
-		enableBooth = true,
-		DefaultVolume = 0.1,
-		radius = 30,
-		coords = vector3(-1294.72, -300.25, 36.1),
-		playing = false, -- don't touch
-		prop = `prop_dj_deck_01` -- Prop to spawn at location, if the location doesn't have one already
-								-- (can be changed to any prop, coords determine wether its placed correctly)
+			job = "insertcoin",
+			enableBooth = true,
+			DefaultVolume = 0.1,
+			radius = 30,
+			coords = vector3(-1294.72, -300.25, 36.1),
+			playing = false, -- don't touch
+			prop = `prop_dj_deck_01` -- Prop to spawn at location, if the location doesn't have one already
+									-- (can be changed to any prop, coords determine wether its placed correctly)
 		},
 		{ -- Yellow Jack
-		job = "yellowjack",
-		enableBooth = true,
-		DefaultVolume = 0.1,
-		radius = 30,
-		coords = vector3(1985.1, 3049.9, 47.17),
-		playing = false, -- don't touch
-		prop = `prop_dj_deck_01` -- Prop to spawn at location, if the location doesn't have one already
-								-- (can be changed to any prop, coords determine wether its placed correctly)
+			job = "yellowjack",
+			enableBooth = true,
+			DefaultVolume = 0.1,
+			radius = 30,
+			coords = vector3(1985.1, 3049.9, 47.17),
+			playing = false, -- don't touch
+			prop = `prop_dj_deck_01` -- Prop to spawn at location, if the location doesn't have one already
+									-- (can be changed to any prop, coords determine wether its placed correctly)
 		},
 		{ -- Cyber Bar
-		job = "cyberbar",
-		enableBooth = true,
-		DefaultVolume = 0.1,
-		radius = 30,
-		coords = vector3(372.15, -936.33, 24.33),
-		playing = false, -- don't touch
-		prop = `prop_dj_deck_01` -- Prop to spawn at location, if the location doesn't have one already
-								-- (can be changed to any prop, coords determine wether its placed correctly)
+			job = "cyberbar",
+			enableBooth = true,
+			DefaultVolume = 0.1,
+			radius = 30,
+			coords = vector3(372.15, -936.33, 24.33),
+			playing = false, -- don't touch
+			prop = `prop_dj_deck_01` -- Prop to spawn at location, if the location doesn't have one already
+									-- (can be changed to any prop, coords determine wether its placed correctly)
 		},
 		{ -- Irish Pub
-		job = "irishpub",
-		enableBooth = true,
-		DefaultVolume = 0.1,
-		radius = 30,
-		coords = vector3(831.12, -111.35, 79.85),
-		playing = false, -- don't touch
-		prop = `prop_dj_deck_01` -- Prop to spawn at location, if the location doesn't have one already
-								-- (can be changed to any prop, coords determine wether its placed correctly)
+			job = "irishpub",
+			enableBooth = true,
+			DefaultVolume = 0.1,
+			radius = 30,
+			coords = vector3(831.12, -111.35, 79.85),
+			playing = false, -- don't touch
+			prop = `prop_dj_deck_01` -- Prop to spawn at location, if the location doesn't have one already
+									-- (can be changed to any prop, coords determine wether its placed correctly)
 		},
 		{ -- Split Sides
-		job = "splitsides",
-		enableBooth = true,
-		DefaultVolume = 0.1,
-		radius = 30,
-		coords = vector3(-456.13, 273.92, 83.24),
-		playing = false, -- don't touch
-		prop = `prop_dj_deck_01` -- Prop to spawn at location, if the location doesn't have one already
-								-- (can be changed to any prop, coords determine wether its placed correctly)
+			job = "splitsides",
+			enableBooth = true,
+			DefaultVolume = 0.1,
+			radius = 30,
+			coords = vector3(-456.13, 273.92, 83.24),
+			playing = false, -- don't touch
+			prop = `prop_dj_deck_01` -- Prop to spawn at location, if the location doesn't have one already
+									-- (can be changed to any prop, coords determine wether its placed correctly)
 		},
-		-- { -- Bahama Mamas
-		-- job = "bahama",
-		-- enableBooth = true,
-		-- DefaultVolume = 0.1,
-		-- radius = 30,
-		-- coords = vector3(-1400.64, -597.21, 30.36),
-		-- playing = false, -- don't touch
-		-- prop = `prop_dj_deck_01` -- Prop to spawn at location, if the location doesn't have one already
-		-- 						-- (can be changed to any prop, coords determine wether its placed correctly)
-		-- },
 		{ -- Limeys
-		job = "limeys",
-		enableBooth = true,
-		DefaultVolume = 0.1,
-		radius = 30,
-		coords = vector3(256.42, -1021.09, 29.59),
-		playing = false, -- don't touch
-		prop = `prop_dj_deck_01` -- Prop to spawn at location, if the location doesn't have one already
-								-- (can be changed to any prop, coords determine wether its placed correctly)
+			job = "limeys",
+			enableBooth = true,
+			DefaultVolume = 0.1,
+			radius = 30,
+			coords = vector3(256.42, -1021.09, 29.59),
+			playing = false, -- don't touch
+			prop = `prop_dj_deck_01` -- Prop to spawn at location, if the location doesn't have one already
+									-- (can be changed to any prop, coords determine wether its placed correctly)
 		},
 	},
 }
